@@ -44,24 +44,17 @@
 </div> <!--pesquisa e anuncie aqui-->
 <div class="container-fluid">
     <div class="row">
-        <div class="col s12 m10 l10">
-            <nav class="search-basic">
-                <div class="nav-wrapper">
-                    <form>
-                        <div class="input-field z-depth-1">
-                            <input id="search" type="search" placeholder="Pesquisar" required>
-                            <label class="label-icon" for="search"><i class="material-icons">search</i>
-                            </label> <i class="material-icons">close</i>
-                        </div>
-                    </form>
-                </div>
-            </nav>
-        </div>
-        <div class="col s12 m2 l2 button_anuncie_aqui show-on-large hide-on-med-and-down">
+
+        <div class="col s12 m12 l6 offset-l9 button_anuncie_aqui show-on-large hide-on-med-and-down">
+            <a class="waves-effect waves-light btn">
+                <i class="material-icons teal lighten-1 left" >search</i>Pesquisa
+            </a>
 
             <a class="waves-effect waves-light btn">
-                <i class="material-icons left">attach_money</i>Anuncie Aqui</a>
+                <i class="large material-icons left">attach_money</i>Anuncie Aqui
+            </a>
         </div>
+
         <div class="col s12 m2 l2 button_anuncie_aqui show-on-small show-on-medium hide-on-large-only grey lighten-2">
             <a class="waves-effect waves-light btn">Anuncie Aqui</a>
         </div>
