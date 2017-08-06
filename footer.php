@@ -1,4 +1,4 @@
-<footer class="page-footer z-depth-2 grey lighten-4 ">
+<footer class="page-footer z-depth-2 grey lighten-3 ">
     <div class="container-fluid">
         <div class="row">
             <div class="col l4 s12">
@@ -29,7 +29,7 @@
             </div>
         </div>
     </div>
-    <div class="footer-copyright  grey lighten-4 z-depth-0">
+    <div class="footer-copyright  grey lighten-3 z-depth-0">
         <div class="container-fluid black-text">
             © 2014 Copyright Text
             <a class="black-text text-lighten-4 right" href="#!">More Links</a>
