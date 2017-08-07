@@ -218,6 +218,7 @@
 .img-slide-fancybox img{
     width: 100% !important;
     max-height: 500px;
+    min-height: 500px;
 }
 .img-thumb-single img{
     padding: 3px;
@@ -227,6 +228,10 @@
     height: 200px;
 }
 
+.description-vehicle{
+    border-top: 5px solid #1d7d74;
+}
+
 .description-vehicle h1{
     font-size: 30px!important;
 }
@@ -234,6 +239,7 @@
 .description-vehicle p{
     font-size: 25px!important;
     color: #900;
+    border-bottom: 2px solid #1d7d74;
 }
 
 .vehicle-details p{
@@ -251,6 +257,33 @@
 .vehicle-details-tabs a:hover{
     color: #1d7d74!important;
     font-weight: bold;
+}
+
+.vehicle-details-tabs .indicator{
+    background-color: #1d7d74!important;
+}
+
+.vehicle-details-button-enviar-proposta{
+    display: table;
+}
+
+/*****************tab +informações*******************/
+.tab-informacoes p{
+    font-size: 18px!important;
+}
+
+.tab-title-itens-opcionais{
+    font-size: 25px!important;
+}
+
+/*.tab-informacoes-opcionais{*/
+    /*border-top: 2px solid #1d7d74!important;*/
+/*}*/
+
+.tab-informacoes-opcionais {
+    /*font-size: 25px!important;*/
+    border-top: 2px solid #1d7d74!important;
+
 }
 
 /*****************************media queries*************************/
