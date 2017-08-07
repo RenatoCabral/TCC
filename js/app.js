@@ -33,7 +33,8 @@ $('.slider-nav').slick({
     arrows: false,
     dots: true,
     centerMode: true,
-    focusOnSelect: true
+    focusOnSelect: true,
+    adaptiveHeight: false
 });
 
 /*search_all_news*/

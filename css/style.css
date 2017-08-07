@@ -214,10 +214,16 @@
 
 /****************Fim footer*****************/
 
-
+.img-slide-fancybox img{
+    width: 100% !important;
+    max-height: 500px;
+}
 .img-thumb-single img{
     padding: 3px;
     cursor: pointer;
+    max-height: 200px!important;
+    min-height: 60px!important;
+    height: 200px;
 }
 
 /*****************************media queries*************************/
