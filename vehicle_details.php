@@ -8,10 +8,10 @@
                 <h1>Fiat Stilo Duologic 1.8 Attractive Flex 8v 5p </h1>
                 <p><strong>R$ 30.000,00</strong></p>
             </div>
-            <div class=" col s12 m12 l6 vehicle-details">
+            <div class=" col s6 m12 l6 vehicle-details">
                 <p><i class="material-icons small left vehicle-details-icon">date_range</i><strong>Ano:</strong> 2017/2017</p>
             </div>
-            <div class=" col s12 m12 l6 vehicle-details">
+            <div class=" col s6 m12 l6 vehicle-details">
                 <p><i class="material-icons small left vehicle-details-icon">av_timer</i><strong>KM:</strong> 116000</p>
             </div>
             <div class=" col s12 m12 l6 vehicle-details">
@@ -67,7 +67,7 @@
 <!-- Tabs -->
 <div class="container-fluid">
     <div class="row">
-        <div class="col s12 m12 l6">
+        <div class="col s12 m12 l6 tabs-home">
             <ul id="tabs-swipe-demo" class="tabs vehicle-details-tabs">
                 <li class="tab col s4"><a href="#test-swipe-1">+ Informações</a></li>
                 <li class="tab col s4"><a class="active" href="#test-swipe-2">Obs. Vendedor</a></li>
@@ -76,27 +76,27 @@
             <div id="test-swipe-1" class="col s12 m12 l12">
                 <div class="col s12 m12 l12">
                     <div class="row">
-                        <div class=" col s6 m6 l6 tab-informacoes">
+                        <div class=" col s6 m12 l6 tab-informacoes">
                             <p><i class="material-icons small left vehicle-details-icon">date_range</i><strong>Tipo:</strong> Sedan</p>
                         </div>
 
-                        <div class=" col s6 m6 l6 tab-informacoes">
+                        <div class=" col s12 m12 l6 tab-informacoes">
                             <p><i class="material-icons small left vehicle-details-icon">date_range</i><strong>Cód. Veículo:</strong> 123456</p>
                         </div>
                     </div>
                     <div class="row">
-                        <div class=" col s6 m6 l6 tab-informacoes">
+                        <div class=" col s12 m12 l6 tab-informacoes">
                             <p><i class="material-icons small left vehicle-details-icon">date_range</i><strong>Motor:</strong> 2.0</p>
                         </div>
-                        <div class=" col s6 m6 l6 tab-informacoes">
+                        <div class=" col s12 m12 l6 tab-informacoes">
                             <p><i class="material-icons small left vehicle-details-icon">date_range</i><strong>Fabricante:</strong> Ford</p>
                         </div>
                     </div>
                     <div class="row">
-                        <div class=" col s6 m6 l6 tab-informacoes">
+                        <div class=" col s12 m12 l6 tab-informacoes">
                             <p><i class="material-icons small left vehicle-details-icon">date_range</i><strong>Modelo:</strong> Fiat Stilo</p>
                         </div>
-                        <div class=" col s6 m6 l6 tab-informacoes">
+                        <div class=" col s12 m12 l6 tab-informacoes">
                             <p><i class="material-icons small left vehicle-details-icon">date_range</i><strong>Outro:</strong> outro</p>
                         </div>
                     </div>
@@ -165,6 +165,26 @@
                 <div class="col s12 m12 l12 tab-informacoes-opcionais">
                     <div class="row">
                         <p class="tab-title-itens-opcionais">Obs. do Vendedor</p>
+                        <form action="#">
+                            <div class="row">
+                                <p class="col s12 m12 l3">
+                                    <input  type="checkbox" id="test6" checked="checked" />
+                                    <label for="test6">Bancos de couro</label>
+                                </p>
+                                <p class="col s12 m12 l3">
+                                    <input  type="checkbox" id="test6" checked="checked" />
+                                    <label for="test6">IPVA 2017- Pago</label>
+                                </p>
+                                <p class="col s12 m12 l3">
+                                    <input type="checkbox" id="test6" checked="checked" />
+                                    <label for="test6">Outro</label>
+                                </p>
+                                <p class="col s12 m12 l3">
+                                    <input type="checkbox" id="test6" checked="checked" />
+                                    <label for="test6">Outro</label>
+                                </p>
+                            </div>
+                        </form>
                     </div>
                 </div>
             </div>

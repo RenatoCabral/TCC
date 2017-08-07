@@ -38,11 +38,11 @@
 </footer>
 
 
-<script src="js/jquery-3.2.1.min.js"></script>
-<script src="js/materialize.min.js"></script>
-<script src="js/slick.js"></script>
-<script src="js/jquery.fancybox.js"></script>
-<script src="js/app.js"></script>
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/materialize.min.js"></script>
+    <script src="js/slick.js"></script>
+    <script src="js/jquery.fancybox.js"></script>
+    <script src="js/app.js"></script>
 
 </body>
 </html>
