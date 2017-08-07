@@ -214,6 +214,7 @@
 
 /****************Fim footer*****************/
 
+/*********** detalhes dos veiculos**********/
 .img-slide-fancybox img{
     width: 100% !important;
     max-height: 500px;
@@ -224,6 +225,23 @@
     max-height: 200px!important;
     min-height: 60px!important;
     height: 200px;
+}
+
+.description-vehicle h1{
+    font-size: 30px!important;
+}
+
+.description-vehicle p{
+    font-size: 25px!important;
+    color: #900;
+}
+
+.vehicle-details p{
+    font-size: 18px!important;
+}
+
+.vehicle-details-icon{
+    margin-right: 8px!important;
 }
 
 /*****************************media queries*************************/

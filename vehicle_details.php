@@ -3,35 +3,36 @@
 
 <div class="container-fluid">
     <div class="row">
-        <div class="col s12 m12 l4 blue">
-            <div class=" col s12 m12 l12 yellow">
+        <div class="col s12 m12 l4">
+            <div class=" col s12 m12 l12 description-vehicle">
                 <h1>Fiat Stilo Duologic 1.8 Attractive Flex 8v 5p </h1>
-                <h6>R$ 30.000,00</h6>
+                <p><strong>R$ 30.000,00</strong></p>
             </div>
-            <div class=" col s12 m12 l6 blue">
-                <h6>Ano: 2017/2017</h6>
+            <div class=" col s12 m6 l6 vehicle-details">
+                <p><i class="material-icons small left vehicle-details-icon">date_range</i><strong>Ano:</strong> 2017/2017</p>
             </div>
-            <div class=" col s12 m12 l6 green">
-                <h6>KM: 116000</h6>
+            <div class=" col s12 m6 l6 vehicle-details">
+                <p><i class="material-icons small left vehicle-details-icon">av_timer</i><strong>KM:</strong> 116000</p>
             </div>
-            <div class=" col s12 m12 l6 orange">
-                <h6>Cor: Prata</h6>
+            <div class=" col s12 m6 l6 vehicle-details">
+                <p><i class="material-icons small left vehicle-details-icon">color_lens</i><strong>Cor:</strong> Prata</p>
             </div>
-            <div class=" col s12 m12 l6 brown">
-                <h6>Portas: 4</h6>
+            <div class=" col s12 m6 l6 vehicle-details">
+                <p><i class="material-icons small left vehicle-details-icon">local_gas_station</i><strong>Portas:</strong> 4</p>
             </div>
-            <div class=" col s12 m12 l6 grey">
-                <h6>Combústive: Flex(Gasolina/Alcool)</h6>
+            <div class=" col s12 m6 l6 vehicle-details">
+                <p><i class="material-icons small left vehicle-details-icon">local_gas_station</i><strong>Combústivel:</strong> Flex</p>
             </div>
-            <div class=" col s12 m12 l6 pink">
-                <h6>Transmissão: Automática</h6>
+            <div class=" col s12 m6 l6 vehicle-details">
+                <p><i class="material-icons small left vehicle-details-icon">directions_car</i><strong>Câmbio:</strong>Automático</p>
             </div>
-            <div class=" col s12 m12 l6 grey lighten-2">
-                <h6>Conservação: Seminovo</h6>
+            <div class=" col s12 m6 l6 vehicle-details">
+                <p><i class="material-icons small left vehicle-details-icon">directions_car</i><strong>Conservação:</strong> Seminovo</p>
             </div>
-            <div class=" col s12 m12 l6 blue lighten-2">
-                <h6>Final Placa: 5</h6>
+            <div class=" col s12 m6 l6 vehicle-details">
+                <p><i class="material-icons small left vehicle-details-icon">insert_invitation</i><strong>Final Placa:</strong> 5</p>
             </div>
+
         </div>
         <div class="col s12 m12 l8">
 
