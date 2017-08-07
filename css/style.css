@@ -116,6 +116,11 @@
     background-color: #1d7d74!important;
 }
 
+.all_news_read_more{
+    float: right;
+    display: flex;
+}
+
 /*******************Fim news e FIPE**************/
 
 /****** Basic-search.php e veiculos_destaque*******/
@@ -208,6 +213,12 @@
 }
 
 /****************Fim footer*****************/
+
+
+.img-thumb-single img{
+    padding: 3px;
+    cursor: pointer;
+}
 
 /*****************************media queries*************************/
 
