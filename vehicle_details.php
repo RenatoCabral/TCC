@@ -84,7 +84,51 @@
         <div class="col s12 m12 l12">
             <div class="col s12 m12 l6 red">
                 <h5 class="title_fipe">Envia sua proposta</h5>
+                <div class="row">
+                    <div class="input-field col s12 m12 l12">
+                        <i class="material-icons prefix">account_circle</i>
+                        <input id="nome" type="text" class="validate">
+                        <label for="nome">Nome Completo: </label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-field col s12 m12 l12">
+                        <i class="material-icons prefix">markunread</i>
+                        <input id="email" type="email" class="validate">
+                        <label for="email">E-mail: </label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-field col s12 m12 l12">
+                        <i class="material-icons prefix">phone</i>
+                        <input id="telefone" type="email" class="validate">
+                        <label for="telefone">Telefone: </label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-field col s12 m12 l12">
+                        <i class="material-icons prefix">phone_iphone</i>
+                        <input id="telefone" type="email" class="validate">
+                        <label for="telefone">Celular: </label>
+                    </div>
+                </div>
+                <div class="row">
+                    <form class="col s12">
+                        <div class="row">
+                            <div class="input-field col s12 m6 l12">
+                                <i class="material-icons prefix">comment</i>
+                                <textarea id="textarea1" class="materialize-textarea"></textarea>
+                                <label for="textarea1">Detalhe sua Proposta</label>
+                            </div>
+                        </div>
+                    </form>
+                </div>
 
+                <div class="input-field col s12 m6 l6 btn_basic_search">
+                    <button class="btn waves-effect waves-light" type="submit" name="action">Submit
+                        <i class="material-icons right">send</i>
+                    </button>
+                </div>
             </div>
             <div class="col s12 m12 l6 blue">
                 <h5 class="title_fipe">Entre em contato</h5>
