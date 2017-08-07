@@ -244,6 +244,15 @@
     margin-right: 8px!important;
 }
 
+.vehicle-details-tabs a{
+    color: #000000!important;
+}
+
+.vehicle-details-tabs a:hover{
+    color: #1d7d74!important;
+    font-weight: bold;
+}
+
 /*****************************media queries*************************/
 
 @media only screen and (max-width: 1024px){

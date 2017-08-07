@@ -59,9 +59,7 @@
                 <img src="img/car_03.jpg" class="responsive-img z-depth-4" alt="">
                 <img src="img/car_04.jpg" class="responsive-img z-depth-4" alt="">
                 <img src="img/car_05.jpeg" class="responsive-img z-depth-4" alt="">
-
             </div>
-
         </div>
     </div>
 </div>
@@ -69,15 +67,32 @@
 <div class="container-fluid">
     <div class="row">
         <div class="col s12 m12 l12">
-            <ul id="tabs-swipe-demo" class="tabs">
-                <li class="tab col s3"><a href="#test-swipe-1">Test 1</a></li>
-                <li class="tab col s3"><a class="active" href="#test-swipe-2">Test 2</a></li>
-                <li class="tab col s3"><a href="#test-swipe-3">Test 3</a></li>
+            <ul id="tabs-swipe-demo" class="tabs vehicle-details-tabs">
+                <li class="tab col s3"><a href="#test-swipe-1">+ Informações</a></li>
+                <li class="tab col s3"><a class="active" href="#test-swipe-2">Obs. Vendedor</a></li>
+                <li class="tab col s3"><a href="#test-swipe-3">Dados do Vendedor</a></li>
             </ul>
             <div id="test-swipe-1" class="col s12 blue">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque dolores eos eveniet neque nostrum quidem quod ratione ullam ut. Accusantium alias consequatur, debitis fugiat ipsam magni odio quas quod saepe.</div>
             <div id="test-swipe-2" class="col s12 red">Test 2</div>
             <div id="test-swipe-3" class="col s12 green">Test 3</div>
         </div>
+    </div>
+</div>
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col s12 m12 l12">
+            <div class="col s12 m12 l6 red">
+                <h5 class="title_fipe">Envia sua proposta</h5>
+
+            </div>
+            <div class="col s12 m12 l6 blue">
+                <h5 class="title_fipe">Entre em contato</h5>
+
+            </div>
+
+        </div>
+
     </div>
 </div>
 
