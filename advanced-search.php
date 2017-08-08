@@ -8,45 +8,34 @@
                     <h1>Busca Avançada</h1>
                 </div>
             </div>
-            <div class="row">
-                <div class="col s12 m12 l12">
-                    <div class="col s12 m12 l4 title-tipo-vehicle-advanced-search">
-                        <p>Tipo</p>
-                        <form action="#">
-                            <p class="col s12 m12 l2 div-single-option">
-                                <input type="checkbox" id="test1" />
-                                <label for="test1">Carro</label>
-                            </p>
-                            <p class="col s12 m12 l2 div-single-option">
-                                <input type="checkbox" id="test2" />
-                                <label for="test2">Moto</label>
-                            </p>
-                        </form>
-                    </div>
-                    <div class="col s12 m12 l6 title-tipo-vehicle-advanced-search">
-                        <p>Estado de Conservação</p>
-                        <form action="#">
-                            <p class="col s12 m12 l2 div-single-option">
-                                <input type="checkbox" id="test3" />
-                                <label for="test3">Novo</label>
-                            </p>
-                            <p class="col s12 m12 l2 div-single-option">
-                                <input type="checkbox" id="test4" />
-                                <label for="test4">Seminovo</label>
-                            </p>
-                            <p class="col s12 m12 l2 div-single-option">
-                                <input type="checkbox" id="test5" />
-                                <label for="test5">Usado</label>
-                            </p>
-                        </form>
-                    </div>
-                </div>
-            </div>
 
             <!--Cards-->
             <div class="row">
                 <div class="col s12 m12 l12">
-                    <div class="col s12 m12 l3">
+                    <div class="col s12 m12 l3"> <!--tipo-->
+                        <div class="card z-depth-2 card-options-advanced-search">
+                            <div class="card-content black-text">
+                                <select multiple>
+                                    <option value="" disabled selected>Tipo veículo</option>
+                                    <option value="1">Carro</option>
+                                    <option value="2">Moto</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s12 m12 l3"> <!--estado de conservação-->
+                        <div class="card z-depth-2 card-options-advanced-search">
+                            <div class="card-content black-text">
+                                <select multiple>
+                                    <option value="" disabled selected>Estado de Conservação</option>
+                                    <option value="1">Novo</option>
+                                    <option value="2">Seminovo</option>
+                                    <option value="3">Usado</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s12 m12 l3"> <!--marca-->
                         <div class="card z-depth-2 card-options-advanced-search">
                             <div class="card-content black-text">
                                 <select multiple>
@@ -58,7 +47,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col s12 m12 l3">
+                    <div class="col s12 m12 l3"> <!--modelo-->
                         <div class="card z-depth-2 card-options-advanced-search">
                             <div class="card-content black-text">
                                 <select multiple>
@@ -70,23 +59,57 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col s12 m12 l3">
-                        <div class="card z-depth-2 card-options-advanced-search">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col s12 m12 l12">
+                    <div class="col s12 m12 l4"> <!--preço-->
+                        <div class="card z-depth-2 card-options-advanced-search card-ano-preco">
                             <div class="card-content black-text">
-                                <select>
-                                    <option value="" disabled selected>Ano De:</option>
-                                    <option value="1">Option 1</option>
-                                    <option value="2">Option 2</option>
-                                    <option value="3">Option 3</option>
-                                </select>
+                                <span class="card-title">Preço</span>
+                                <form>
+                                    <div class="row">
+                                        <div class="input-field col s12 m12 l6">
+                                            <input id="email" type="email" class="validate">
+                                            <label class="black-text" for="email" data-error="wrong" data-success="right">Preço de:</label>
+                                        </div>
+                                        <div class="input-field col s12 m12 l6">
+                                            <input id="email" type="email" class="validate">
+                                            <label class="black-text" for="email" data-error="wrong" data-success="right">Preço até:</label>
+                                        </div>
+                                    </div>
+                                </form>
                             </div>
                         </div>
                     </div>
-                    <div class="col s12 m12 l3">
-                        <div class="card z-depth-2 card-options-advanced-search">
+                    <div class="col s12 m12 l4"><!--ano-->
+                        <div class="card z-depth-2 card-options-advanced-search card-ano-preco">
                             <div class="card-content black-text">
-                                <select>
-                                    <option value="" disabled selected>Ano Até:</option>
+                                <span class="card-title">Ano/Modelo</span>
+                                <form>
+                                    <div class="row">
+                                        <select class="col s12 m12 l6">
+                                            <option value="" disabled selected>Ano De:</option>
+                                            <option value="1">Option 1</option>
+                                            <option value="2">Option 2</option>
+                                            <option value="3">Option 3</option>
+                                        </select>
+                                        <select class="col s12 m12 l6">
+                                            <option value="" disabled selected>Ano Até:</option>
+                                            <option value="1">Option 1</option>
+                                            <option value="2">Option 2</option>
+                                            <option value="3">Option 3</option>
+                                        </select>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s12 m12 l4"> <!--Cidade-->
+                        <div class="card z-depth-2 card-options-advanced-search card-ano-preco">
+                            <div class="card-content black-text">
+                                <select multiple>
+                                    <option value="" disabled selected>Cidade</option>
                                     <option value="1">Option 1</option>
                                     <option value="2">Option 2</option>
                                     <option value="3">Option 3</option>

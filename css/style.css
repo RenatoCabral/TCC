@@ -389,23 +389,14 @@
 
 /*********************advanced search****************/
 
+.card-ano-preco{
+    height: 190px;
+}
+
 .card-options-advanced-search:hover{
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
 
-.title-tipo-vehicle-advanced-search{
-    border-top: 1px solid #1d7d74!important;
-    margin-right: 5px;
-}
-.title-tipo-vehicle-advanced-search p{
-    font-size: 20px;
-    /*font-weight: bold;*/
-    margin: 0;
-}
-
-.div-single-option{
-    /*margin: 0;*/
-}
 /*****************************media queries*************************/
 
 
