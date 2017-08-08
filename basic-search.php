@@ -86,8 +86,8 @@
             </div>
 
             <div class="input-field col s12 m2 l2 btn_basic_search">
-                <button class="btn waves-effect waves-light" type="submit" name="action">Submit
-                    <i class="material-icons right">send</i>
+                <button class="btn waves-effect waves-light" type="submit" name="action">Buscar
+                    <i class="material-icons right">search</i>
                 </button>
             </div>
             <div class="input-field col s12 m2 l2 btn_basic_search">

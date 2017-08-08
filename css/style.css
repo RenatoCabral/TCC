@@ -268,6 +268,9 @@
 }
 
 /*****************tab +informações*******************/
+.container-tabs-form{
+    min-height: 630px;
+}
 .tabs-home{
     border-right: 1px solid #1d7d74!important;
 }
@@ -279,14 +282,36 @@
     font-size: 25px!important;
 }
 
-/*.tab-informacoes-opcionais{*/
-    /*border-top: 2px solid #1d7d74!important;*/
-/*}*/
+.button-send-proposta{
+    margin: 0 auto;
+    display: block;
+}
+
+.texto-info p{
+    font-size: 18px;
+}
+
+.link-title-tab{
+    font-size: 18px !important;
+    font-weight: bold;
+
+}
 
 .tab-informacoes-opcionais {
     /*font-size: 25px!important;*/
     border-top: 2px solid #1d7d74!important;
+}
 
+.title-proposta{
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.list-opcionals p{
+    word-break: break-all!important;
 }
 
 /*****************************media queries*************************/
