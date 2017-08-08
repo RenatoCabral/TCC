@@ -155,7 +155,29 @@
 }
 
 .doubts-title h1{
-    font-size: 50px;
+    font-size: 33px;
+    font-weight: bold;
+}
+
+/**********advanced-search**************/
+
+.title-advanced-search{
+    border-top: 5px solid #1d7d74;
+    /*font-weight: bold;*/
+    width: 300px;
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+    float: left;
+
+}
+.title-advanced-search h1{
+    font-size: 33px;
+    font-weight: bold;
+}
+
+.title-advanced-search h1:hover{
+    color: #1d7d74;
 }
 
 /*********************Fim Basic-search.php***********************/
@@ -363,6 +385,26 @@
     margin: 0;
     padding-top: 3px;
     float: left;
+}
+
+/*********************advanced search****************/
+
+.card-options-advanced-search:hover{
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.title-tipo-vehicle-advanced-search{
+    border-top: 1px solid #1d7d74!important;
+    margin-right: 5px;
+}
+.title-tipo-vehicle-advanced-search p{
+    font-size: 20px;
+    /*font-weight: bold;*/
+    margin: 0;
+}
+
+.div-single-option{
+    /*margin: 0;*/
 }
 /*****************************media queries*************************/
 
