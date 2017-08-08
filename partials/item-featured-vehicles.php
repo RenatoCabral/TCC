@@ -2,9 +2,9 @@
     <div class="col s12 m12 l3">
         <div class="card z-depth-0 card-vehicles">
             <div class="card-image card-image-vehicles">
-                <img src="./img/sample-1.jpg" class="responsive-img">
+                <img src="./img/car_05.jpeg" class="responsive-img">
                 <span class="card-title">Cod. 01</span>
-                <a  class="btn-floating btn-small halfway-fab waves-effect waves-light red transition-300ms icon-view-more">
+                <a href="./single-vehicle.php" class="btn-floating btn-small halfway-fab waves-effect waves-light red transition-300ms icon-view-more">
                     <i class="small material-icons">add</i>
                 </a>
             </div>

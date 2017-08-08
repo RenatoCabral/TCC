@@ -18,28 +18,10 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col s12 m4 l4">
-                <img src="img/logo.png" class="responsive-img">
+                <a href="index.php"><img src="img/logo.png" class="responsive-img"></a>
             </div>
             <div class="col s12 m8 l8">
-                <nav class="z-depth-0 teste">
-                    <div class="nav-wrapper"> <!--<a href="#!" class="brand-logo">Logo</a>-->
-                        <a href="#" data-activates="mobile-demo" class="button-collapse">
-                            <i class="material-icons">menu</i>
-                        </a>
-
-                        <ul class="right hide-on-med-and-down">
-                            <li class="active"><a href="sass.html">Home</a></li>
-                            <li><a href="badges.html">Components</a></li>
-                            <li><a href="collapsible.html">Javascript</a></li>
-                            <li><a href="mobile.html">Entrar/Cadastrar-se</a></li>
-                        </ul> <ul class="side-nav" id="mobile-demo">
-                            <li><a href="sass.html">Sass</a></li>
-                            <li><a href="badges.html">Components</a></li>
-                            <li><a href="collapsible.html">Javascript</a></li>
-                            <li><a href="mobile.html">Mobile</a></li>
-                        </ul>
-                    </div>
-                </nav>
+                <?php include 'menu.php'; ?>
             </div>
         </div>
     </div>

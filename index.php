@@ -3,6 +3,6 @@
 
 include 'slider-home.php';
 include 'basic-search.php';
-include 'veiculos_destaque.php';
-include 'news_fipe.php';
+include 'feature-vehicles.php';
+include 'news-fipe.php';
 include 'footer.php';
