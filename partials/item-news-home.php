@@ -9,7 +9,7 @@
                 <div class="card-content news_paragraph">
                     <span class="card-title activator grey-text text-darken-4">Card Title</span>
                     <p>
-                        <a href="#"> In sem justo, commodo ut, suscipit at, pharetra vitae, orci
+                        <a href="./single-news.php"> In sem justo, commodo ut, suscipit at, pharetra vitae, orci
                             In sem justo, commodo ut, suscipit at.</a></p>
                 </div>
             </div>
@@ -17,7 +17,7 @@
 
     <?php } ?>
     <div class="box-view-more-button-news-home">
-        <a class="waves-effect waves-light btn-large">Ver Mais</a>
+        <a href="./news.php" class="waves-effect waves-light btn-large">Ver Mais</a>
     </div>
 
 </div>

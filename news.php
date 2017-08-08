@@ -7,229 +7,32 @@
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="row title_div_cars ">
-                    <h5>Últimas Notícias</h5>
+                    <h5>Notícias</h5>
                 </div>
             </div>
 
             <div class="col s12 m12 l12">
-                <div class="col s12 m12 l3">
-                    <div class="card medium z-depth-4 cards_news_home">
-                        <div class="card-image waves-effect waves-block waves-light">
-                            <img src="img/sample-1.jpg" class="responsive-img">
-                        </div>
-                        <div class="card-content news_paragraph">
-                            <span class="card-title activator grey-text text-darken-4">Card Title</span>
-                            <p>
-                                <a href="#"> In sem justo, commodo ut, suscipit at, pharetra vitae, orci
-                                    In sem justo, commodo ut, suscipit at.
+                <?php for ($i =0; $i <= 11; $i++ ) { ?>
+                    <div class="col s12 m12 l3">
+                        <div class="card medium z-depth-4 cards_news_home">
+                            <div class="card-image waves-effect waves-block waves-light">
+                                <img src="img/sample-1.jpg" class="responsive-img">
+                            </div>
+                            <div class="card-content news_paragraph">
+                                <span class="card-title activator grey-text text-darken-4">Card Title</span>
+                                <p>
+                                    <a href="./single-news.php"> In sem justo, commodo ut, suscipit at, pharetra vitae, orci
+                                        In sem justo, commodo ut, suscipit at.
+                                    </a>
+                                </p>
+                                <a href="./single-news.php" class="d-flex flex-row-reverse">
+                                    <p class="waves-effect waves-light p-2 all_news_read_more">Read more <i class="material-icons">chevron_right</i></p>
                                 </a>
-                            </p>
-                            <a href="#" class="d-flex flex-row-reverse">
-                                <p class="waves-effect waves-light p-2 all_news_read_more">Read more <i class="material-icons">chevron_right</i></p>
-                            </a>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col s12 m12 l3">
-                    <div class="card medium z-depth-4 cards_news_home">
-                        <div class="card-image waves-effect waves-block waves-light">
-                            <img src="img/sample-1.jpg" class="responsive-img">
-                        </div>
-                        <div class="card-content news_paragraph">
-                            <span class="card-title activator grey-text text-darken-4">Card Title</span>
-                            <p>
-                                <a href="#"> In sem justo, commodo ut, suscipit at, pharetra vitae, orci
-                                    In sem justo, commodo ut, suscipit at.
-                                </a>
-                            </p>
-                            <a href="#" class="d-flex flex-row-reverse">
-                                <p class="waves-effect waves-light p-2 all_news_read_more">Read more <i class="material-icons">chevron_right</i></p>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col s12 m12 l3">
-                    <div class="card medium z-depth-4 cards_news_home">
-                        <div class="card-image waves-effect waves-block waves-light">
-                            <img src="img/sample-1.jpg" class="responsive-img">
-                        </div>
-                        <div class="card-content news_paragraph">
-                            <span class="card-title activator grey-text text-darken-4">Card Title</span>
-                            <p>
-                                <a href="#"> In sem justo, commodo ut, suscipit at, pharetra vitae, orci
-                                    In sem justo, commodo ut, suscipit at.
-                                </a>
-                            </p>
-                            <a href="#" class="d-flex flex-row-reverse">
-                                <p class="waves-effect waves-light p-2 all_news_read_more">Read more <i class="material-icons">chevron_right</i></p>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col s12 m12 l3">
-                    <div class="card medium z-depth-4 cards_news_home">
-                        <div class="card-image waves-effect waves-block waves-light">
-                            <img src="img/sample-1.jpg" class="responsive-img">
-                        </div>
-                        <div class="card-content news_paragraph">
-                            <span class="card-title activator grey-text text-darken-4">Card Title</span>
-                            <p>
-                                <a href="#"> In sem justo, commodo ut, suscipit at, pharetra vitae, orci
-                                    In sem justo, commodo ut, suscipit at.
-                                </a>
-                            </p>
-                            <a href="#" class="d-flex flex-row-reverse">
-                                <p class="waves-effect waves-light p-2 all_news_read_more">Read more <i class="material-icons">chevron_right</i></p>
-                            </a>
-                        </div>
-                    </div>
-                </div>
 
-                <div class="col s12 m12 l3">
-                    <div class="card medium z-depth-4 cards_news_home">
-                        <div class="card-image waves-effect waves-block waves-light">
-                            <img src="img/sample-1.jpg" class="responsive-img">
-                        </div>
-                        <div class="card-content news_paragraph">
-                            <span class="card-title activator grey-text text-darken-4">Card Title</span>
-                            <p>
-                                <a href="#"> In sem justo, commodo ut, suscipit at, pharetra vitae, orci
-                                    In sem justo, commodo ut, suscipit at.
-                                </a>
-                            </p>
-                            <a href="#" class="d-flex flex-row-reverse">
-                                <p class="waves-effect waves-light p-2 all_news_read_more">Read more <i class="material-icons">chevron_right</i></p>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col s12 m12 l3">
-                    <div class="card medium z-depth-4 cards_news_home">
-                        <div class="card-image waves-effect waves-block waves-light">
-                            <img src="img/sample-1.jpg" class="responsive-img">
-                        </div>
-                        <div class="card-content news_paragraph">
-                            <span class="card-title activator grey-text text-darken-4">Card Title</span>
-                            <p>
-                                <a href="#"> In sem justo, commodo ut, suscipit at, pharetra vitae, orci
-                                    In sem justo, commodo ut, suscipit at.
-                                </a>
-                            </p>
-                            <a href="#" class="d-flex flex-row-reverse">
-                                <p class="waves-effect waves-light p-2 all_news_read_more">Read more <i class="material-icons">chevron_right</i></p>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col s12 m12 l3">
-                    <div class="card medium z-depth-4 cards_news_home">
-                        <div class="card-image waves-effect waves-block waves-light">
-                            <img src="img/sample-1.jpg" class="responsive-img">
-                        </div>
-                        <div class="card-content news_paragraph">
-                            <span class="card-title activator grey-text text-darken-4">Card Title</span>
-                            <p>
-                                <a href="#"> In sem justo, commodo ut, suscipit at, pharetra vitae, orci
-                                    In sem justo, commodo ut, suscipit at.
-                                </a>
-                            </p>
-                            <a href="#" class="d-flex flex-row-reverse">
-                                <p class="waves-effect waves-light p-2 all_news_read_more">Read more <i class="material-icons">chevron_right</i></p>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col s12 m12 l3">
-                    <div class="card medium z-depth-4 cards_news_home">
-                        <div class="card-image waves-effect waves-block waves-light">
-                            <img src="img/sample-1.jpg" class="responsive-img">
-                        </div>
-                        <div class="card-content news_paragraph">
-                            <span class="card-title activator grey-text text-darken-4">Card Title</span>
-                            <p>
-                                <a href="#"> In sem justo, commodo ut, suscipit at, pharetra vitae, orci
-                                    In sem justo, commodo ut, suscipit at.
-                                </a>
-                            </p>
-                            <a href="#" class="d-flex flex-row-reverse">
-                                <p class="waves-effect waves-light p-2 all_news_read_more">Read more <i class="material-icons">chevron_right</i></p>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col s12 m12 l3">
-                    <div class="card medium z-depth-4 cards_news_home">
-                        <div class="card-image waves-effect waves-block waves-light">
-                            <img src="img/sample-1.jpg" class="responsive-img">
-                        </div>
-                        <div class="card-content news_paragraph">
-                            <span class="card-title activator grey-text text-darken-4">Card Title</span>
-                            <p>
-                                <a href="#"> In sem justo, commodo ut, suscipit at, pharetra vitae, orci
-                                    In sem justo, commodo ut, suscipit at.
-                                </a>
-                            </p>
-                            <a href="#" class="d-flex flex-row-reverse">
-                                <p class="waves-effect waves-light p-2 all_news_read_more">Read more <i class="material-icons">chevron_right</i></p>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col s12 m12 l3">
-                    <div class="card medium z-depth-4 cards_news_home">
-                        <div class="card-image waves-effect waves-block waves-light">
-                            <img src="img/sample-1.jpg" class="responsive-img">
-                        </div>
-                        <div class="card-content news_paragraph">
-                            <span class="card-title activator grey-text text-darken-4">Card Title</span>
-                            <p>
-                                <a href="#"> In sem justo, commodo ut, suscipit at, pharetra vitae, orci
-                                    In sem justo, commodo ut, suscipit at.
-                                </a>
-                            </p>
-                            <a href="#" class="d-flex flex-row-reverse">
-                                <p class="waves-effect waves-light p-2 all_news_read_more">Read more <i class="material-icons">chevron_right</i></p>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col s12 m12 l3">
-                    <div class="card medium z-depth-4 cards_news_home">
-                        <div class="card-image waves-effect waves-block waves-light">
-                            <img src="img/sample-1.jpg" class="responsive-img">
-                        </div>
-                        <div class="card-content news_paragraph">
-                            <span class="card-title activator grey-text text-darken-4">Card Title</span>
-                            <p>
-                                <a href="#"> In sem justo, commodo ut, suscipit at, pharetra vitae, orci
-                                    In sem justo, commodo ut, suscipit at.
-                                </a>
-                            </p>
-                            <a href="#" class="d-flex flex-row-reverse">
-                                <p class="waves-effect waves-light p-2 all_news_read_more">Read more <i class="material-icons">chevron_right</i></p>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col s12 m12 l3">
-                    <div class="card medium z-depth-4 cards_news_home">
-                        <div class="card-image waves-effect waves-block waves-light">
-                            <img src="img/sample-1.jpg" class="responsive-img">
-                        </div>
-                        <div class="card-content news_paragraph">
-                            <span class="card-title activator grey-text text-darken-4">Card Title</span>
-                            <p>
-                                <a href="#"> In sem justo, commodo ut, suscipit at, pharetra vitae, orci
-                                    In sem justo, commodo ut, suscipit at.
-                                </a>
-                            </p>
-                            <a href="#" class="d-flex flex-row-reverse">
-                                <p class="waves-effect waves-light p-2 all_news_read_more">Read more <i class="material-icons">chevron_right</i></p>
-                            </a>
-                        </div>
-                    </div>
-                </div>
+                <?php }  ?>
 
                 <!--paginação-->
                 <div>

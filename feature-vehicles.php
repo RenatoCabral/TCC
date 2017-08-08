@@ -9,16 +9,10 @@
 <div class="container-fluid">
     <div class="row">
         <div class="col s12 m12 l12 list-featured-vehicles">
-            <?php include "partials/item-featured-vehicles.php"; ?>
-            <?php include "partials/item-featured-vehicles.php"; ?>
-            <?php include "partials/item-featured-vehicles.php"; ?>
-            <?php include "partials/item-featured-vehicles.php"; ?>
-            <?php include "partials/item-featured-vehicles.php"; ?>
-            <?php include "partials/item-featured-vehicles.php"; ?>
-            <?php include "partials/item-featured-vehicles.php"; ?>
-            <?php include "partials/item-featured-vehicles.php"; ?>
-
-            <a class="waves-effect waves-light btn-large view-more-button">Ver Mais</a>
+            <?php for ($i =0; $i <= 7; $i++ ) {
+                include 'partials/item-featured-vehicles.php';
+            }  ?>
+            <a href="vehicles.php" class="waves-effect waves-light btn-large view-more-button">Ver Mais</a>
         </div>
 
     </div>

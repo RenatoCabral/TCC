@@ -30,9 +30,26 @@
     <div class="row">
 
         <div class="col s12 m12 l6 offset-l9 button_anuncie_aqui show-on-large hide-on-med-and-down">
-            <a class="waves-effect waves-light btn">
-                <i class="material-icons teal lighten-1 left" >search</i>Pesquisa
-            </a>
+<!--            <a class="waves-effect waves-light btn">-->
+<!--                <i class="material-icons teal lighten-1 left" >search</i>Pesquisa-->
+<!--            </a>-->
+
+
+            <!-- Modal Trigger -->
+            <a class="waves-effect waves-light btn modal-trigger" href="#modal1"> <i class="material-icons teal lighten-1 left" >search</i>Pesquisa</a>
+
+            <!-- Modal Structure -->
+            <div id="modal1" class="modal">
+                <div class="modal-content">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis et harum illum nesciunt praesentium, repudiandae sed tempora. Animi cumque delectus eius ipsum laboriosam qui quidem tempore tenetur veniam, vitae! Voluptatum.</p>
+                    <input type="text" placeholder="Digite aqui sua busca">
+                </div>
+                <div class="modal-footer">
+                    <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Buscar</a>
+                </div>
+
+            </div>
+
 
             <a class="waves-effect waves-light btn">
                 <i class="large material-icons left">attach_money</i>Anuncie Aqui

@@ -7,10 +7,11 @@
         <ul class="right hide-on-med-and-down">
             <li class="active"><a href="index.php">Início</a></li>
             <li><a href="#">Sobre</a></li>
-            <li><a href="#">Dúvidas</a></li>
-            <li><a href="#">Notícias</a></li>
+            <li><a href="doubts.php">Dúvidas</a></li>
+            <li><a href="news.php">Notícias</a></li>
+            <li><a href="vehicles.php">Veículos</a></li>
             <li><a href="#">FIPE</a></li>
-            <li><a href="#">Contato</a></li>
+            <li><a href="contact.php">Contato</a></li>
             <li><a href="#">Entrar/Cadastrar-se</a></li>
         </ul>
     </div>

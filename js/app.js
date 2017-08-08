@@ -6,6 +6,13 @@ $(".button-collapse").sideNav();
 
 $(document).ready(function() {
     $('select').material_select();
+
+    $('.modal').modal();
+
+});
+
+$(document).ready(function(){
+    $('.collapsible').collapsible();
 });
 
 
@@ -46,3 +53,4 @@ $('.datepicker').pickadate({
     close: 'Ok',
     closeOnSelect: false // Close upon selecting a date,
 });
+

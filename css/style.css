@@ -128,7 +128,7 @@
     margin-top: 60px;
 }
 
-.title_div_cars h5{
+.title_div_cars h5, .title-news-date h1{
     text-align: center;
     border-top: 5px solid #1d7d74;
     font-weight: bold;
@@ -140,6 +140,22 @@
 
 .btn_basic_search{
     padding-top: 18px!important;
+}
+
+/**************duvidas*-*****************/
+
+.doubts-title{
+    border-top: 5px solid #1d7d74;
+    font-weight: bold;
+    width: 300px;
+    display: block;
+    margin: 0 auto;
+    padding: 20px;
+    float: left;
+}
+
+.doubts-title h1{
+    font-size: 50px;
 }
 
 /*********************Fim Basic-search.php***********************/
@@ -314,6 +330,40 @@
     word-break: break-all!important;
 }
 
+/*****single news****/
+.thumb-single-news{
+    margin: 0 auto;
+    display: block;
+}
+
+.content-single-news{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 16px;
+}
+
+.title-news-date{
+    text-align: center;
+}
+
+.title-news-date h1{
+    font-size: 35px;
+}
+
+.div-single-date{
+    width: 150px;
+    margin: 0 auto;
+}
+
+.div-single-date i{
+    float: left!important;
+}
+
+.div-single-date p{
+    margin: 0;
+    padding-top: 3px;
+    float: left;
+}
 /*****************************media queries*************************/
 
 
