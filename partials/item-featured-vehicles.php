@@ -1,6 +1,6 @@
 
     <div class="col s12 m12 l3">
-        <div class="card z-depth-0 card-vehicles">
+        <div class="card z-depth-1 card-vehicles">
             <div class="card-image card-image-vehicles">
                 <img src="./img/car_05.jpeg" class="responsive-img">
                 <span class="card-title">Cod. 01</span>

@@ -14,7 +14,7 @@
             <div class="col s12 m12 l12">
                 <?php for ($i =0; $i <= 11; $i++ ) { ?>
                     <div class="col s12 m12 l3">
-                        <div class="card medium z-depth-4 cards_news_home">
+                        <div class="card medium z-depth-1 cards_news_home">
                             <div class="card-image waves-effect waves-block waves-light">
                                 <img src="img/sample-1.jpg" class="responsive-img">
                             </div>

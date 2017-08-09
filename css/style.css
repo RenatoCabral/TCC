@@ -225,6 +225,10 @@
     opacity: 0.5;
 }
 
+.card-vehicles:hover{
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
 .card-image-vehicles:hover .icon-view-more{
     visibility: visible;
     opacity: 1;
@@ -395,6 +399,12 @@
 
 .card-options-advanced-search:hover{
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.button-advanced-search{
+    margin: 0 auto;
+    display: table;
+    width: 260px;
 }
 
 /*****************************media queries*************************/

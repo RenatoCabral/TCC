@@ -91,9 +91,11 @@
                 </button>
             </div>
             <div class="input-field col s12 m2 l2 btn_basic_search">
-                <a href="#" target="_blank"><button class="btn waves-effect waves-light" type="submit" name="action">Busca Avançada
-                    <i class="material-icons right">send</i>
-                </button></a>
+                <a href="advanced-search.php" class="btn waves-effect waves-light">Busca Avançada
+<!--                    <button class="btn waves-effect waves-light" type="submit" name="action">Busca Avançada-->
+                        <i class="material-icons right">send</i>
+<!--                    </button>-->
+                </a>
             </div>
 
         </div>
